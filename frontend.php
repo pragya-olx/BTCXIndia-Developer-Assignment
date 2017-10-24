@@ -122,7 +122,7 @@ header p {
 <?php
 
 $dirname = "";
-$images = glob($dirname."*.jpg");
+$images = glob($dirname."*.jp*");
 echo '<div id="container">
     <header>
 	    <h1></h1>
